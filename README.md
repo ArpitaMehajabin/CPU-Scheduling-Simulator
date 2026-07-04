@@ -47,6 +47,3 @@ Using GCC:
 
 The program prints a formatted table of process stats along with an ASCII Gantt chart showing execution order and idle time.
 
-## Author
-
-Built by **Mobashira Mehajabin**.
