@@ -1,0 +1,10 @@
+# Compiled binaries
+scheduler
+sim
+simulator
+*.o
+*.out
+
+# Backup/autosave files
+*.save
+*~
