@@ -21,3 +21,32 @@ A C program that simulates and compares classic CPU scheduling algorithms, showi
 5. View the results: a formatted table with waiting/turnaround/finish times, averages, and a Gantt chart.
 
 ## Project Structure
+
+- `CpuSchedulingSimulatorMain.c` — Entry point, menu, and input handling
+- `CpuSchedulingAlgorithms.h` — Aggregates all algorithm headers
+- `CpuSchedulingAlgorithmsModule/`
+  - `Process.h` — Process struct definition
+  - `SortingFunction.h` — Merge sort & quicksort helpers
+  - `PrintTable.h` — Results table + Gantt chart rendering
+  - `FCFS.h`
+  - `SJF.h`
+  - `SRT.h`
+  - `RR.h`
+  - `PPS.h`
+  - `NPPS.h`
+  - `HRN.h`
+
+## Build & Run
+
+Using GCC:
+
+    gcc CpuSchedulingSimulatorMain.c -o scheduler
+    ./scheduler
+
+## Sample Output
+
+The program prints a formatted table of process stats along with an ASCII Gantt chart showing execution order and idle time.
+
+## Author
+
+Built by **Mobashira Mehajabin**.
